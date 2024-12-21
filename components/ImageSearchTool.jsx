@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Card from '@/components/ui/Card';
+import { CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import { Upload } from 'lucide-react';
 
 const ImageSearchTool = () => {
